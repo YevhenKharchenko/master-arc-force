@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Blinker', sans-serif;
   color: $_main_color;
   background: $_main_bg_color;
 
@@ -37,38 +37,31 @@ html {
 
   @include media(desktop) {
     max-width: 1440px;
-    padding-right: 88px;
-    padding-left: 88px;
+    padding-right: 80px;
+    padding-left: 80px;
   }
 }
 
 .section-title-wrapper {
-  background: #0047c2;
-  padding-top: 6px;
-  padding-bottom: 5px;
+  padding-top: 40px;
+  padding-bottom: 32px;
 
   @include media(desktop) {
-    padding-top: 0;
-    padding-bottom: 0;
-    background: none;
+    padding-top: 80px;
+    padding-bottom: 40px;
   }
 }
 
 .section-title {
-  font-family: 'Gabarito', sans-serif;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 1.27273;
+  font-family: 'Cinzel', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
   text-align: center;
-  color: #fff;
-  border-radius: 16px;
-  padding: 12px 32px;
-  backdrop-filter: blur(4px);
-  background: #362d6e;
+  color: #000;
 
   @include media(desktop) {
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 1.14286;
+    font-size: 40px;
   }
 }
