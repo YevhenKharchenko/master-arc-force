@@ -1,0 +1,32 @@
+.privacy-header {
+  padding-top: 32px;
+  padding-bottom: 40px;
+
+  @include media(desktop) {
+    padding-top: 56px;
+    padding-bottom: 40px;
+  }
+}
+
+.privacy-header-container {
+  @include media(desktop) {
+    padding-left: 188px;
+    padding-right: 188px;
+  }
+}
+
+.privacy-header-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Blinker', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.arrow-back-icon {
+  stroke: #1a1a1a;
+  fill: none;
+}
