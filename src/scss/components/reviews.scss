@@ -1,0 +1,64 @@
+.reviews-wrapper {
+  background: #1a1a1a;
+  padding-top: 16px;
+  padding-bottom: 40px;
+
+  @include media(desktop) {
+    padding-top: 24px;
+    padding-bottom: 80px;
+  }
+}
+
+.reviews-container {
+  @include media(desktop) {
+    padding: 0 122px;
+  }
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.reviews-list-item {
+  background: #efefef;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  @include media(desktop) {
+    max-width: calc((100% - 96px) / 5);
+  }
+}
+
+.reviews-item-top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews-item-name {
+  font-family: 'Blinker', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #000;
+}
+
+.reviews-item-text {
+  font-family: 'Blinker', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #000;
+}
