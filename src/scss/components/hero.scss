@@ -6,13 +6,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-  scroll-margin-top: 70px;
 
   @include media(desktop) {
     padding-top: 125px;
     padding-top: 180px;
     background-image: url(../img/hero/hero-bg-desk.png);
-    scroll-margin-top: 60px;
   }
 }
 

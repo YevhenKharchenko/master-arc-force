@@ -42,6 +42,14 @@ html {
   }
 }
 
+.section {
+  scroll-margin-top: 70px;
+
+  @include media(desktop) {
+    scroll-margin-top: 60px;
+  }
+}
+
 .section-title-wrapper {
   padding-top: 40px;
   padding-bottom: 32px;
